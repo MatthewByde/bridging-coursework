@@ -31,6 +31,11 @@ a.nav-link {
     font-size: 200%;
 }
 
+a.nav-separator {
+    color: #FBEEC1;
+    font-size: 200%;
+}
+
 a.nav-link:hover {
     color: #DAAD86;
     text-decoration: none;
