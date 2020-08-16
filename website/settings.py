@@ -126,7 +126,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'website/templates'),],
         'APP_DIRS': True,
-        'OPTIONS': {
+        'OPTIONS': {                      
             'context_processors': [
                 'django.contrib.auth.context_processors.auth',
                 'django.template.context_processors.debug',
@@ -135,7 +135,7 @@ TEMPLATES = [
                 'django.template.context_processors.static',
                 'django.template.context_processors.tz',
                 'django.contrib.messages.context_processors.messages',
-            ],
+            ],                                                                                                
         },
     },
 ]
