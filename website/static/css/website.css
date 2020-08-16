@@ -1,4 +1,4 @@
-h2 a {
+a {
     color: #FFFFFF;
     font-family: sans-serif;
 }
@@ -47,5 +47,18 @@ a.nav-link:hover {
 
 .post {
 margin-bottom: 70px;
+}
+
+p {
+    font-size: 120%;
+}
+
+li {
+    font-size: 120%;
+}
+
+.chessimage {
+    height: 50%;
+    width: 50%;
 }
         

@@ -1,1 +1,40 @@
 {% extends 'website/base.html' %}
+{% load static %}
+{% block content %}
+<h1><u>Other projects</u></h1>
+<h2><u>Chess</u></h2>
+<p>
+Over the summer of 2020, I started working on a chess game, written using JavaFX.
+It's a work in progress, although most functionality is already implemented.
+<br>
+Once finished, features should include:
+<ul>
+<li>LAN multiplayer</li>
+<li>Archiving of completed games plus replay functionality</li>
+<li>Move highlighting</li>
+<li>Custom timing and rules</li>
+<li>Saving/loading of in-progress games</li>
+<li>Spectating</li>
+<li>Switching between 2D and 3D views</li>
+</ul>
+</p>
+<p>
+And then I might try to implement an AI opponent, perhaps using machine learning.
+<p>
+
+</p>
+
+<img src="{% static "img/chess.png" %}" class="chessimage" alt="3D chess screenshot">
+<br>
+<h2> <u> Theorem prover</u> </h2>
+<p>
+I've also been working collaboratively with a couple of others on developing an interface for, and corresponding implementation of, the theorem prover Nuprl, or computational type theory. 
+</p>
+<p>
+So far, I've implemented the primary features of a frontend of the interface, with standard text editor features and input and output text areas.
+Work currently is focussing on the underlying logic, where we parse the input, evaluate the terms and display an output to the user.
+We're hoping to at least have a baseline that, although feature-incomplete, can be expanded on and improved on as time goes on until it develops into a good, useable standalone interface.
+</p>
+
+
+{% endblock %}
